@@ -23,7 +23,7 @@
 }
 
 svg {
-	margin-left: 150px;
+	/*margin-left: 150px;*/
 }
 
 .focused {
@@ -90,6 +90,11 @@ select {
 <body>
 	<select name="countries"></select>
 	<button id="getdata">Get the data!</button>
+	<button id="resetrot">Reset rotation</button>
+	<fieldset>
+	<input name="projection" type="radio" value="ortho" checked /> Globe
+	<input name="projection" type="radio" value="flat" /> Flat
+	</fieldset>
     <script src="js/globe.js"></script>
 </body>
 </html>
